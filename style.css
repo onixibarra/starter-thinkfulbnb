@@ -94,7 +94,9 @@ form {
   flex-direction: column;
   justify-content: space-between;
   border: 2px solid #ff385c;
-  
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 form label {
@@ -135,7 +137,7 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 768px) {
   p {
     font-size: 14px;
   }
